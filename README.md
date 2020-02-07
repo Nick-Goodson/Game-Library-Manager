@@ -1,5 +1,4 @@
 # Game Library Manager
-Android application for managing a video game library
 
 This repo contains an Android Studio project for Game Library Manager, an application that allows users to keep track of
 the games they own and want using a shared database:
