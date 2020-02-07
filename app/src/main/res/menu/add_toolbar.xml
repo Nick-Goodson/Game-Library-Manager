@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_toolbar_menu">
+    <item
+        android:id="@+id/sendButton"
+        android:title="Submit"
+        android:icon="@drawable/ic_send"
+        app:showAsAction="always"/>
+</menu>

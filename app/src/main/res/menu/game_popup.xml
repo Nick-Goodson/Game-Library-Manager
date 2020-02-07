@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/game_popup_menu">
+    <item
+        android:id="@+id/Add_Remove"
+        android:title="Add or Remove Library"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Add_Remove_Wishlist"
+        android:title="Add or Remove Wishlist"
+        app:showAsAction="never" />
+</menu>

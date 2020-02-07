@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Game Library Manager</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="Server_Address">https://juicy-android-server.herokuapp.com/</string>
+    <string-array name="options_array">
+        <item>Library</item>
+        <item>All Games</item>
+        <item>Favorites</item>
+        <item>Wishlist</item>
+    </string-array>
+</resources>

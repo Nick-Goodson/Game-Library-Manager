@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gameToolbarMenu">
+    <item
+        android:id="@+id/GameEdit"
+        android:orderInCategory="200"
+        android:title="Edit"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/GameRemove"
+        android:icon="@drawable/ic_remove"
+        android:orderInCategory="300"
+        android:title="Remove"
+        app:showAsAction="always" />
+</menu>

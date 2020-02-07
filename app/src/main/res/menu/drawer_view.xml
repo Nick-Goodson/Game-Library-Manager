@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/library"
+        android:title="Library"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/allGames"
+        android:title="All Games"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/favorites"
+        android:title="Favorites"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/Wishlist"
+        android:title="Wishlist"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:checkable="true"
+        />
+
+
+</menu>

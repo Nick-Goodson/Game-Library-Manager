@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_menu">
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="400"
+        android:title="Sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/menu_sort_date"
+                android:title="Release Date"/>
+            <item
+                android:id="@+id/menu_sort_rating"
+                android:title="Rating"/>
+            <item
+                android:id="@+id/menu_sort_name"
+                android:title="Name"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="300"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/spinner"
+        android:title="ActionBar Spinner"
+        android:orderInCategory="100"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"/>
+
+</menu>
