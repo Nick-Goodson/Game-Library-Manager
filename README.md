@@ -2,7 +2,7 @@
 Android application for managing a video game collection
 
 Depends on the API found here:
-https://github.com/myuimu/Game-Library-Database
+https://github.com/Nick-Goodson/Game-Library-Manager/
 
 API host path is defined in /app/src/main/res/values/strings.xml
 
